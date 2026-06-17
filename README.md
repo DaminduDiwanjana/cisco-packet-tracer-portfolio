@@ -2,13 +2,10 @@
 
 A structured collection of network topology blueprints, device subnet schemas, and static routing paths implemented within Cisco Packet Tracer.
 
+
 ## Assignment 1: Dual-Router Core Network Matrix (task1.pkt)
 
 This configuration establishes symmetrical transit paths between two distinct local area networks using dedicated FastEthernet links and a point-to-point WAN Serial interface.
-
-### Network Topology Blueprint
-
-![Task 1 Layout](image_44d128.png)
 
 ### Network Architecture Parameters
 
@@ -18,12 +15,14 @@ This configuration establishes symmetrical transit paths between two distinct lo
 
 ### Next-Hop Static Routing Configuration Matrix
 
-* **Router 1 Path Map:** `ip route 192.168.2.0 255.255.255.0 10.0.0.2`
-* **Router 2 Path Map:** `ip route 192.168.1.0 255.255.255.0 10.0.0.1`
+* **Router 1 Path Map:** ip route 192.168.2.0 255.255.255.0 10.0.0.2
+* **Router 2 Path Map:** ip route 192.168.1.0 255.255.255.0 10.0.0.1
+
 
 ## Assignment 2: Intermediate Network Infrastructure (task 3 (1).pkt)
 
-This lab assignment builds upon basic point-to-point routing by introducing intermediate switch configurations, expanded subnet boundaries, and multiple active client nodes across the topology to simulate a growing mid-sized office deployment.
+This lab assignment expands upon basic point-to-point routing by introducing intermediate switch configurations, expanded subnet boundaries, and multiple active client nodes across the topology to simulate a growing mid-sized office deployment.
+
 
 ## Assignment 3: Enterprise Simulation Architecture (project 4.pkt)
 
